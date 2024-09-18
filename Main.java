@@ -16,6 +16,9 @@ public class Main {
 
     m1.atacar(p1, 1);
 
+    Guerreiro g1;
+    g1 = new Guerreiro("Conan", 50);
+
     //p1.atacar(p3, 1);
     //p3.defender(p1.atacar(3)); //5
 
