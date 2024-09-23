@@ -19,11 +19,14 @@ public class Main {
     Guerreiro g1;
     g1 = new Guerreiro("Conan", 50);
 
-    //p1.atacar(p3, 1);
+    p1.atacar(p3, 1);
     //p3.defender(p1.atacar(3)); //5
 
     p1.imprimirEstatisticas();
     p2.imprimirEstatisticas();
     p3.imprimirEstatisticas();
+
+    Feiticeiro f = new Feiticeiro("Warlock", "Sombria", 10);
+    
     }
 }

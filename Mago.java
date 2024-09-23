@@ -7,7 +7,15 @@ public class Mago extends Personagem{
     
     public Mago(String nome, String magia, int resistencia){
         super(nome, resistencia); //chamada do construtor da classe Personagem
+        setMagia(magia);
+    }
+
+    public void setMagia(String magia){
         this.magia = magia;
+    }
+
+    public String getMagia(){
+        return this.magia;
     }
 
     @Override //redefinindo o atacar
